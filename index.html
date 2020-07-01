@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+		<title>Weather Dashboard</title>
+	</head>
+
+<body>
+
+    
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4">Weather Dashboard</h1>
+        </div>
+        <div class="container-fluid"></div>
+        <div class="row">
+            <div class="col-4 bg-light">
+                <div class="mt-2">Search for a City:</div>
+                <div class="input-group mb-3">
+                    <input type="text" id="city" class="form-control">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="searchCity"><i class="fas fa-search"></i></button>
+                    </div> 
+                </div>
+                <!-- left column / list -->
+                <div class="list-group"></div>
+            </div>
+            <div class="col-8">
+                <div class="row p-2">
+                    <div class="card">
+                        <!-- main card -->
+                        <div class="card-body"></div>
+                    </div>
+                </div>
+                    <div class="row">
+                        <h4>5-Day Forecast:</h4>
+                    </div>
+                <!-- five day -->
+                <div id="weeklyForecast" class="row"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://kit.fontawesome.com/1cc5977b2c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="dash.js"></script>
+    
+</body>
+
+</html>
