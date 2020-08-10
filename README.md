@@ -13,6 +13,6 @@ Creat an Active updating weather Dashboard that presents the current weather con
 5.Recently searched locations will be able to be reselected on click to bring back up search data
 
 Weather Page: https://kennyward85.github.io/Weather-Dashboard/
-![Weather app ](https://user-images.githubusercontent.com/66036794/86190113-28184380-bb09-11ea-94aa-4f433a40f780.png)
+![Weather Dash](https://user-images.githubusercontent.com/66036794/89826881-7ebb6900-db1c-11ea-8798-c9fbcb11d89d.png)
 
 
